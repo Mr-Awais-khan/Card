@@ -1,0 +1,115 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .container{
+    width: 300px;
+    height: 430px;
+    background-color: red;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 100px;
+  }
+  .container #icon{
+    padding: 9px;
+  }
+  .container #icon1{
+    margin-left: 15rem;
+    margin-top: 10px;
+  }
+  .container .man img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 0, 0.799);
+    margin-top: 20px;
+  }
+  .container .man{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .container .man h2{
+    text-align: center;
+    bottom: 30px;
+    color: rgba(255, 255, 255, 0.728);
+  }
+  .container .man p{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.611);
+  }
+  .container .apps{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    margin-top: 17px;
+  }
+  .container .apps .one{
+    width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.897);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: blue;
+      margin: 5px;
+  }
+  .container .apps .two{
+    width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.897);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: purple;
+      margin: 5px;
+  }
+  .container .apps .three{
+    width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.897);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgba(0, 0, 255, 0.766);
+      margin: 5px;
+  }
+  .container .apps .four{
+    width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.897);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: blue;
+      margin: 5px;
+  }
+  .container .btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .btn button{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: 2px solid white;
+    color: white;
+    font-size: 15px;
+    background-color: red;
+    margin: 5px;
+  }
+  .comments{
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    color: black;
+  }
+  .comments .com1 , .com2 , .com3{
+    margin: 13px;
+  }
